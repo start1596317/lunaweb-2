@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--標籤-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--響應式-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--網頁標籤(唯一標籤)-->
+    <title>購物車</title>
+    <!--外部連接-->
+    <link rel="stylesheet" href="dist/style/style.min.css">
+    
+</head>
+<body>
+    <!-- html4架構 id(唯一)# class(類別)-->
+    <!-- 頁首header 內容main 頁尾footer -->
+    <!-- div=區塊標籤 -->
+   <header>
+       <nav>
+            <!-- 導覽標籤 nav 項目清單 ul li :商標 標題1(h1) -->
+                
+            <h1 id="Logo">Jamejuice</h1>
+                <ul class="Btnbox" > 
+                    <li>首頁</li>
+                    <li>關於我們</li>
+                    <li>菜單價目表</li>
+                    <li>所有商品</li>
+                    <li>相關配件</li>
+                    <li>留言板</li>
+                </ul>
+                <!-- icon區塊標籤 div ; icon -->
+            <div id="icon">
+                <div class="Menber">會員</div>
+                <div class="Shoppimg">購物車</div>
+                <form class="Serch">搜尋</form>
+            </div>
+            <div id="MenuBoton">
+                <!-- 選單 -->
+                <!-- 設定方式一:直接置入圖片 img ;alt替代文字(圖片連結失效時);title提示文字(對圖片來說不重要) -->
+                <img src="images/manuicon.svg" alt="Jamejuice選單">
+            </div>
+            <!-- 清除浮動框架 p (段落)-->
+            <p class="clear"></p>
+        </nav>
+<!-- 導覽列  ig fb line  購物車小圖  nav -->
+   </header>
+   <article id="main">
+     <!-- 廣告區塊 div 命名 輪播功能用 javascript 命名建議用 ID 選擇器 ; css3輪播功能 命名 id選擇器 或是類別選擇器(class) -->
+<div id="Banner">
+    <div class="LeftBtn">按鈕</div>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+</div>
+<section>
+    <p class="imades">商品圖片</p>
+    <p>
+        <h3>商品名稱</h3>
+    <ul>
+    <li>我的最愛</li>
+    <li>購物車</li>
+    </ul>
+    </p>
+    <!-- 螢光標記 mark -->
+    <p><mark>商品簡介,英文與阿拉伯數字超過26中文13個字,會利用......設計</mark></p>
+    <li>特價<span><s>1000</s></span>元</li>
+    <li>原價<span>800</span>元</li>
+</section>
+<!-- 本月主打/本月新品上市/季節限定  最新活動 熱銷排行 -->
+<!-- 側邊攔 aside 商品分類(建議中大型購物車設定) -->
+    <article id="Hot Star">
+    
+        <h1>熱銷星星</h1>
+    <ul>
+        <h4>果醬類</h4>
+        <li>荔枝果醬</li>
+        <li>芒果果醬</li>
+        <li>葡萄果醬</li>
+        <li>蘋果果醬</li>
+        <li>百香果果醬</li>
+        <h4>綜合排名</h4>
+        <li>熱帶夏季水果茶</li>
+        <li>芒果青綠茶</li>
+        <li>芒果愛玉</li>
+        <li>檸檬愛玉</li>
+        <li>蜂蜜檸檬</li>
+    </ul>
+    <h1>本月主打</h1>
+    <h1>最新活動</h1>
+    <!-- 下為熱銷星星開始之區段 -->
+    </article>
+    <!-- 下為大區段 -->  
+   </article>
+
+   <footer>
+     <!-- 擁有者資訊 建議瀏覽器解析度 瀏覽人數(比較少用,資料庫運作)版權聲明 連結:隱私權政策
+    網站安全政策 服務條款 商品的次選單 -->
+    <!-- 段落標籤 P  行內範圍 span-->
+    <P>Jamejuice版權宣告&COPY;2020- <span id="year">2021</span> </P>
+    <P>&copy;2020- <span id="Year"> 2021 Jamejuice </span></P>
+    <address>
+        <p class="address">彰化市</p>
+        <p class="phone">0900-000-000</p>
+        <p class="e-mail">123456789@gmail.com</p>
+        <p class="line">123456789</p>
+        <p class="fb">elisa</p>
+        <p class="map">^*&^%^%$^%##</p>
+    </address>  
+   </footer>
+</body>
+</html>

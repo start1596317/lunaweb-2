@@ -1,0 +1,26 @@
+// 匯入檔案 @import
+@import "_01joint.scss";
+
+// RWD 利用媒體盼隊來區分顯示裝置尺寸
+// 超小裝置.<576PX,max-width(最小寬度)
+
+@media screen and (max-width: 576px) {
+    //匯入檔案import
+    @import "_02Esmall/01index";
+}
+// 小裝置>\576px min-wudth (最大寬度 含等於)
+@media screen and (min-width: 576px) {
+    @import "_03small/_01index";
+}
+// 平板裝置>=768min-wudth (最大寬度 含等於)
+@media screen and (min-width: 768px) {
+    @import "_04Medium/_01index.scss";
+}
+// 大平板裝置 >=992 min-width(最大寬度 含等於)
+@media screen and (min-width: 992px) {
+    @import "_05Large/01index";
+}
+// 螢幕裝置 >=1200px Xlarge min-width(最大寬度 含等於)
+@media screen and (min-width: 1200px) {
+    @import "_06Xlarge/01index";
+}

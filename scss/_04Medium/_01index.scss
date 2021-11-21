@@ -1,0 +1,17 @@
+header {
+    // 寬度100%
+    width: $w10 * 10;
+    nav {
+        .Btnbox {
+            background-color: rgb(217, 27, 223);
+        }
+        #icon {
+            @include DN;
+        }
+    }
+}
+footer {
+    address {
+        @include DN;
+    }
+}
