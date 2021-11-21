@@ -11,8 +11,52 @@ img {
 
 @media screen and (max-width: 576px) {
   header {
-    width: 100%;
-    background-color: hotpink;
+    width: 100vw;
+    background-color: #cfee7b;
+  }
+  header nav {
+    /*
+        浮動對齊的問題 float
+        1.#Logo 與 # icon 物件的父框架 nav，無寬度
+        2.nav 的父框架 header ，高度消失(展開) 
+        解決方式
+        1.nav 的父框架 header ，給予高度: 或是nav 給予高度
+        2.清除浮動狀態，由 nav 設定
+        3.利用圖片高度撐開父框架的高
+        */
+    height: 10vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header nav #Logo {
+    width: 85vw;
+  }
+  header nav #MenuBoton {
+    width: 15vw;
+  }
+  header nav #Logo {
+    float: left;
+    background-color: ivory;
+  }
+  header nav .Btnbox {
+    background-color: #854419;
+  }
+  header nav #icon {
+    display: none;
+  }
+  header nav #MenuBoton {
+    float: left;
+  }
+  header nav .Clear {
+    clear: both;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  header {
+    width: 100vw;
+    background-color: #da338f;
   }
   header nav {
     /*
@@ -27,19 +71,22 @@ img {
     height: 10vh;
   }
   header nav #Logo {
-    width: 85%;
+    width: 85vw;
+  }
+  header nav #MenuBoton {
+    width: 15vw;
+  }
+  header nav #Logo {
     float: left;
-    background-color: ivory;
+    background-color: #21995d;
   }
   header nav .Btnbox {
-    background-color: #854419;
-    display: none;
+    background-color: #d6d576;
   }
   header nav #icon {
     display: none;
   }
   header nav #MenuBoton {
-    width: 15%;
     float: left;
   }
   header nav .Clear {
@@ -47,48 +94,76 @@ img {
   }
 }
 
-@media screen and (min-width: 576px) {
-  header {
-    width: 100%;
-  }
-  header nav .Btnbox {
-    background-color: #df1b3c;
-  }
-  header nav #icon {
-    display: none;
-  }
-  footer address {
-    display: none;
-  }
-}
-
 @media screen and (min-width: 768px) {
   header {
-    width: 100%;
+    width: 100vw;
+    background-color: #c3d4d3;
+  }
+  header nav {
+    /*
+        浮動對齊的問題 float
+        1.#Logo 與 # icon 物件的父框架 nav，無寬度
+        2.nav 的父框架 header ，高度消失(展開) 
+        解決方式
+        1.nav 的父框架 header ，給予高度: 或是nav 給予高度
+        2.清除浮動狀態，由 nav 設定
+        3.利用圖片高度撐開父框架的高
+        */
+    height: 10vh;
+  }
+  header nav #Logo {
+    width: 85vw;
+  }
+  header nav #MenuBoton {
+    width: 15vw;
+  }
+  header nav #Logo {
+    float: left;
+    background-color: ivory;
   }
   header nav .Btnbox {
-    background-color: #d91bdf;
+    background-color: #b6bee6;
+    display: none;
   }
   header nav #icon {
     display: none;
   }
-  footer address {
-    display: none;
+  header nav #MenuBoton {
+    float: left;
+  }
+  header nav .Clear {
+    clear: both;
   }
 }
 
 @media screen and (min-width: 992px) {
   header {
-    width: 100%;
+    width: 100vw;
+  }
+  header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   header nav .Btnbox {
     background-color: #deeb29;
   }
   header nav #icon {
     display: block;
+    width: 70vw;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   header nav #MenuBoton {
     display: none;
+    width: 30;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   footer address {
     display: none;
@@ -97,16 +172,14 @@ img {
 
 @media screen and (min-width: 1200px) {
   header {
-    width: 100%;
+    width: 100vw;
   }
-  header nav .Btnbox {
-    background-color: #083f0f;
-  }
-  header nav #icon {
-    display: block;
-  }
-  header nav #MenuBoton {
-    display: none;
+  header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   footer address {
     display: none;

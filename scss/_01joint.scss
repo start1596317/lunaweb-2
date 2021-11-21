@@ -12,7 +12,7 @@ img {
     height: auto;
 }
 // 變數區
-$w10: 10%;
+$w10: 10vw;
 
 %DN {
     //  隱藏
@@ -37,4 +37,26 @@ $w10: 10%;
 // 計算header Logo 與 BtnBox之間的寬度
 @mixin LBW($WM, $WA) {
     width: $w10 * $WM + $WA;
+}
+
+// 計算區
+// 計算header logo 與 menubtn 之間的寬度，手機裝置
+@mixin  LBW($WM, $WA) {
+    // 計算區1.設定變數(乘載值得物件名稱)$WM=倍數 @WA=加的數值
+    $LogoW:$w10* $WM + $WA;
+    // Menubtn寬度=父框架的總寬度(100) -Logo寬度(85)
+    $MBW:$w10*10-$LogoW;
+
+    // 連動 計算寬度 Logo 與 MenuBtn 
+
+    // 呼叫id (標籤 或 id class)
+    
+    #Logo{
+        // 寬度
+        width: $LogoW;
+    }
+    #MenuBoton{
+        // 寬度
+        width: $MBW;
+    }
 }

@@ -9,7 +9,7 @@ header {
     // 寬度100%
     width: $w10 * 10;
     // height: 150px;
-    background-color: hotpink;
+    background-color: rgb(207, 238, 123);
     nav {
         /*
         浮動對齊的問題 float
@@ -26,24 +26,27 @@ header {
         // 解決方法一:給予高度;二擇一，寫入 header 或是 nav
         // height:65px
         // 靠左排列(與MenuBoton同一行)
+        // 彈性布局flex:對齊物件的父框架
+        display: flex;
+        // Logo寬度 + Icon 寬度 = 總寬度 100VW (100%)
+        @include LBW(8, 5vw);
         #Logo {
             // 寬度 % or vw (螢幕可是範圍的高度百分比)
-            // width: $w10 * 8+5%;
-            @include LBW(8, 5%);
+        
+    
 
             float: left;
             background-color: ivory;
         }
         .Btnbox {
             background-color: rgb(133, 68, 25);
-            display: none;
+            // display: none;
         }
         #icon {
             //  隱藏
             display: none;
         }
         #MenuBoton {
-            width: $w10 * 1+5%;
             // 靠左對齊法:靠左對齊 float:left
             float: left;
         }

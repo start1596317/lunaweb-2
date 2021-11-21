@@ -1,17 +1,53 @@
+// 呼叫 html 標籤,例如: nav,稱作類別選擇器
+// 呼叫id,例如<li id="test"><li>,id="test,「#」ID選擇器;「#test」
+// 呼叫class,class="test1",「.」類別選擇器;「.test1」
+// scss 1.巢狀寫法 2.變數  $yourname (設定計算用的基礎值) 3.繼承%yourname(css3語法相同,但能集中
+// 呈現);呼叫方式@extend %yourname
+// 傳統 csss3 的寫法 隱藏
+// 目前使用的單位 (數值) 是 百分比 (%) ; 網頁的固定單位--像素px
 header {
     // 寬度100%
     width: $w10 * 10;
+    // height: 150px;
+    background-color: rgb(195, 212, 211);
     nav {
+        /*
+        浮動對齊的問題 float
+        1.#Logo 與 # icon 物件的父框架 nav，無寬度
+        2.nav 的父框架 header ，高度消失(展開) 
+        解決方式
+        1.nav 的父框架 header ，給予高度: 或是nav 給予高度
+        2.清除浮動狀態，由 nav 設定
+        3.利用圖片高度撐開父框架的高
+        */
+        // 設定高度 單位為 % (未給予基值，所以無法計算出實際高度)
+        // vh (可視裝置高度，計算出實際高度 ; 依照裝置的高度計算)
+        height: 10vh;
+        // 解決方法一:給予高度;二擇一，寫入 header 或是 nav
+        // height:65px
+        // 靠左排列(與MenuBoton同一行)
+        @include LBW(8, 5vw);
+        #Logo {
+            // 寬度 % or vw (螢幕可是範圍的高度百分比)
+            // @include LBW(8, 5%);
+
+            float: left;
+            background-color: ivory;
+        }
         .Btnbox {
-            background-color: rgb(217, 27, 223);
+            background-color: rgb(182, 190, 230);
+            display: none;
         }
         #icon {
-            @include DN;
+            //  隱藏
+            display: none;
         }
-    }
-}
-footer {
-    address {
-        @include DN;
+        #MenuBoton {
+            // 靠左對齊法:靠左對齊 float:left
+            float: left;
+        }
+        .Clear {
+            @include ClearFloat;
+        }
     }
 }
