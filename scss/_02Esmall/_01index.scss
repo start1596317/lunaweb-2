@@ -55,3 +55,25 @@ header {
         }
     }
 }
+footer{
+    // 物件之間的距離值 vh rem
+    margin-top: 2rem;
+    nav{
+        ul{
+            // 彈性布局
+            display: flex;
+        }
+    }
+// 版權宣告
+p{
+    text-align: center;
+}
+    hr{
+        margin-bottom: 2rem;
+    }
+    address{
+        // 呼叫 混合函式
+        @include DN;
+
+    }
+}

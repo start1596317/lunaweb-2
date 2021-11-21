@@ -1,6 +1,7 @@
 header {
     // 寬度100%
     width: $w10 * 10;
+    background-color: rgb(96, 202, 179);
     nav {
         display: flex;
         flex-wrap: wrap;
@@ -14,7 +15,7 @@ header {
             // 隱藏項目符號
             list-style-type: none;
             display: flex;
-            
+
         }
         #MenuBoton {
             @include DN;
