@@ -24,7 +24,6 @@ img {
         2.清除浮動狀態，由 nav 設定
         3.利用圖片高度撐開父框架的高
         */
-    height: 10vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -41,6 +40,7 @@ img {
   }
   header nav .Btnbox {
     background-color: #854419;
+    display: none;
   }
   header nav #icon {
     display: none;
@@ -58,6 +58,7 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    list-style: none;
   }
   footer p {
     text-align: center;
@@ -67,6 +68,28 @@ img {
   }
   footer address {
     display: none;
+  }
+  #Main {
+    background-color: darkkhaki;
+  }
+  #Main #Banner {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+  }
+  #Main #Banner .LeftBtn,
+  #Main #Banner .ReftBtn {
+    display: none;
+  }
+  #Main #ImageBox {
+    width: 300vw;
+    list-style: none;
+    background-color: darkturquoise;
+  }
+  #Main #ImageBox li {
+    width: 300vw;
+    float: left;
+    position: absolute;
   }
 }
 
@@ -108,6 +131,24 @@ img {
   }
   header nav .Clear {
     clear: both;
+  }
+  footer {
+    margin-top: 2rem;
+  }
+  footer nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+  }
+  footer p {
+    text-align: center;
+  }
+  footer hr {
+    margin-bottom: 2rem;
+  }
+  footer address {
+    display: none;
   }
 }
 
