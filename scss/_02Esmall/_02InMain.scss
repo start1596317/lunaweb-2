@@ -6,9 +6,30 @@
         overflow: hidden;
         // 定位點:' 相對定位
         position: relative;
-        .LeftBtn,
+       .Btn{
+           width: 30px;
+           height:6vh *2;
+        // 水平置中
+        text-align: center;
+        // 垂直置中 高度=行距
+            line-height: 6vh *2;
+        font-size: $Trem *2;
+            // 定位點
+            position: absolute;
+            // 移動階層(圖層)
+            z-index: 15;
+            top: 20vh - 6vh;
+            
+        }
+        .LeftBtn{
+            left:2.5vw;
+            background-color: darksalmon;
+            
+        }
         .ReftBtn{
-            @include DN; 
+            // 方向 右邊為0(物件靠右對齊) ; float 浮點對齊，配合 上下左右
+            right: 5.5vw;
+            background-color: darksalmon;
         }
     }
     #ImageBox{
@@ -16,7 +37,7 @@
         @include DNli;
         // 內間距 設定 下方間距，當成圖片的高度，單位為 % or vh
 
-        padding-bottom: 40vh;
+        padding-bottom: 35vh;
         background-color: rgb(240, 232, 232);
        li{
         width: $w10 * 10;
@@ -29,7 +50,7 @@
     font-size: 72px;
     text-align:  center;
     // 內間距 設定 下方間距，當成圖片的高度，單位為 % or vh
-    padding-bottom: 40vh;
+    padding-bottom: 23vh;
        } 
     }
     .Item01{
