@@ -82,14 +82,25 @@ img {
     display: none;
   }
   #Main #ImageBox {
-    width: 300vw;
+    width: 100vw;
     list-style: none;
-    background-color: darkturquoise;
+    padding-bottom: 40vh;
+    background-color: #f0e8e8;
   }
   #Main #ImageBox li {
-    width: 300vw;
+    width: 100vw;
     float: left;
     position: absolute;
+    font-size: 72px;
+    text-align: center;
+    padding-bottom: 40vh;
+  }
+  #Main .Item01 {
+    width: 100vw;
+    background-image: url(../../images/Banner/blue.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 }
 
