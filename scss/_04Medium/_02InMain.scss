@@ -1,7 +1,5 @@
 #Main{
-    padding-bottom: 40vh;
-    background-color: rgb(66, 67, 136);
-    
+    background-color: darkkhaki;
     #Banner{
         width: $w10 * 10;
         // 溢位設定，將超出的可視範圍給隱藏
@@ -41,7 +39,7 @@
         @include DNli;
         // 內間距 設定 下方間距，當成圖片的高度，單位為 % or vh
 
-        padding-bottom: 35vh;
+        padding-bottom: 40vh;
         background-color: rgb(240, 232, 232);
        li{
         width: $w10 * 10;
