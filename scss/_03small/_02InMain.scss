@@ -1,6 +1,11 @@
 #Main{
-    background-color: rgb(90, 199, 99);
+    background-color: rgb(66, 67, 136);
+    
     #Banner{
+        $ImgPadding:385px;
+        // 父框架的padding 335 px - 子框架的padding 250px = 相差值 $Differ
+        // 以增加50px為基礎值增加50px
+        $Differ:90px ; 
         width: $w10 * 10;
         // 溢位設定，將超出的可視範圍給隱藏
         overflow: hidden;
@@ -8,17 +13,18 @@
         position: relative;
        .Btn{
            width: 30px;
-           height:6vh *2;
+           height: 95px;;
         // 水平置中
         text-align: center;
         // 垂直置中 高度=行距
-            line-height: 6vh *2;
+            line-height: 95px;
         font-size: $Trem *1.2;
             // 定位點
             position: absolute;
             // 移動階層(圖層)
             z-index: 15;
-            top: 20vh - 6vh;
+            // 左右按鈕，物件往下推算高度;(物件父框架的高 / 2)-(按鈕高度 / 2)+單位
+            top: ($ImgPadding / 2)-(95px / 2);
             @include Rounded(15);
         
             
@@ -33,28 +39,30 @@
             right: 5.5vw;
             background-color: rgba(255,255,255,0.25);
         }
+        #ImageBox{
+            width: $w10 * 10;
+            @include DNli;
+            // 內間距 設定 下方間距，當成圖片的高度，單位為 % or vh
+            padding-bottom: $ImgPadding;
+            background-color: rgb(240, 232, 232);
+           li{
+            width: $w10 * 10;
+            float: left;
+            // 定位點 相絕定位:1.單獨呼叫時,原點(0,0)會位於畫面(可視範圍)的左上角
+            // 2.物件的父框架呼叫 相對定位(position: relattive)時,功能設為「重新定位原點至父框架)
+            position: absolute;
+            // 移動圖片位置
+        // margin-left: -235px;
+        font-size: 72px;
+        text-align:  center;
+        // 內間距 設定 下方間距，當成圖片的高度，單位為 % or vh(會隨著裝置改變)800px *
+        // 0.26=208 px 固定值px
+        // 子框架的padding = 父框架的$padding - 相差值 $Differ
+        padding-bottom: $ImgPadding - $Differ;
+           } 
+        }
     }
-    #ImageBox{
-        width: $w10 * 10;
-        @include DNli;
-        // 內間距 設定 下方間距，當成圖片的高度，單位為 % or vh
-
-        padding-bottom: 40vh;
-        background-color: rgb(240, 232, 232);
-       li{
-        width: $w10 * 10;
-        float: left;
-        // 定位點 相絕定位:1.單獨呼叫時,原點(0,0)會位於畫面(可視範圍)的左上角
-        // 2.物件的父框架呼叫 相對定位(position: relattive)時,功能設為「重新定位原點至父框架)
-        position: absolute;
-        // 移動圖片位置
-    // margin-left: -235px;
-    font-size: 72px;
-    text-align:  center;
-    // 內間距 設定 下方間距，當成圖片的高度，單位為 % or vh
-    padding-bottom: 23vh;
-       } 
-    }
+    
     .Item01{
         // width: $w10 * 10;
        @include BPohto(center,cover,Banner,"yellow.png");

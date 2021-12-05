@@ -48,7 +48,13 @@ header {
         }
         #MenuBoton {
             // 靠左對齊法:靠左對齊 float:left
+            width: 60px;
             float: left;
+            background-color: rgb(216, 119, 50);
+            // 文字取代圖片，呈現背景圖，而隱藏文字;首行縮排
+            // text-indent: -99999px;
+            @include PhoneMenu(center, contain, Icon, "manuicon.svg");
+    
         }
         .Clear {
             @include ClearFloat;

@@ -48,7 +48,14 @@ img {
     display: none;
   }
   header nav #MenuBoton {
+    width: 60px;
     float: left;
+    background-color: #d87732;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../../images/Icon/manuicon.svg);
   }
   header nav .Clear {
     clear: both;
@@ -72,7 +79,6 @@ img {
     display: none;
   }
   #Main {
-    padding-bottom: 40vh;
     background-color: #424388;
   }
   #Main #Banner {
@@ -82,13 +88,13 @@ img {
   }
   #Main #Banner .Btn {
     width: 30px;
-    height: 12vh;
+    height: 95px;
     text-align: center;
-    line-height: 12vh;
+    line-height: 95px;
     font-size: 1.2rem;
     position: absolute;
     z-index: 15;
-    top: 14vh;
+    top: 145px;
     border-radius: 15px;
   }
   #Main #Banner .LeftBtn {
@@ -99,19 +105,19 @@ img {
     right: 5.5vw;
     background-color: rgba(255, 255, 255, 0.25);
   }
-  #Main #ImageBox {
+  #Main #Banner #ImageBox {
     width: 100vw;
     list-style: none;
-    padding-bottom: 35vh;
+    padding-bottom: 385px;
     background-color: #f0e8e8;
   }
-  #Main #ImageBox li {
+  #Main #Banner #ImageBox li {
     width: 100vw;
     float: left;
     position: absolute;
     font-size: 72px;
     text-align: center;
-    padding-bottom: 23vh;
+    padding-bottom: 295px;
   }
   #Main .Item01 {
     width: 100vw;
@@ -179,6 +185,7 @@ img {
   }
   header nav .Btnbox {
     background-color: #d6d576;
+    display: none;
   }
   header nav #icon {
     display: none;
@@ -208,7 +215,7 @@ img {
     display: none;
   }
   #Main {
-    background-color: #5ac763;
+    background-color: #424388;
   }
   #Main #Banner {
     width: 100vw;
@@ -217,13 +224,13 @@ img {
   }
   #Main #Banner .Btn {
     width: 30px;
-    height: 12vh;
+    height: 95px;
     text-align: center;
-    line-height: 12vh;
+    line-height: 95px;
     font-size: 1.2rem;
     position: absolute;
     z-index: 15;
-    top: 14vh;
+    top: 145px;
     border-radius: 15px;
   }
   #Main #Banner .LeftBtn {
@@ -234,19 +241,19 @@ img {
     right: 5.5vw;
     background-color: rgba(255, 255, 255, 0.25);
   }
-  #Main #ImageBox {
+  #Main #Banner #ImageBox {
     width: 100vw;
     list-style: none;
-    padding-bottom: 40vh;
+    padding-bottom: 385px;
     background-color: #f0e8e8;
   }
-  #Main #ImageBox li {
+  #Main #Banner #ImageBox li {
     width: 100vw;
     float: left;
     position: absolute;
     font-size: 72px;
     text-align: center;
-    padding-bottom: 23vh;
+    padding-bottom: 295px;
   }
   #Main .Item01 {
     width: 100vw;
@@ -324,82 +331,6 @@ img {
   }
   header nav .Clear {
     clear: both;
-  }
-  #Main {
-    background-color: darkkhaki;
-  }
-  #Main #Banner {
-    width: 100vw;
-    overflow: hidden;
-    position: relative;
-  }
-  #Main #Banner .Btn {
-    width: 30px;
-    height: 12vh;
-    text-align: center;
-    line-height: 12vh;
-    font-size: 1.2rem;
-    position: absolute;
-    z-index: 15;
-    top: 14vh;
-    border-radius: 15px;
-  }
-  #Main #Banner .LeftBtn {
-    left: 2.5vw;
-    background-color: rgba(255, 255, 255, 0.25);
-  }
-  #Main #Banner .ReftBtn {
-    right: 5.5vw;
-    background-color: rgba(255, 255, 255, 0.25);
-  }
-  #Main #ImageBox {
-    width: 100vw;
-    list-style: none;
-    padding-bottom: 40vh;
-    background-color: #f0e8e8;
-  }
-  #Main #ImageBox li {
-    width: 100vw;
-    float: left;
-    position: absolute;
-    font-size: 72px;
-    text-align: center;
-    padding-bottom: 23vh;
-  }
-  #Main .Item01 {
-    width: 100vw;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../../images/Banner/yellow.png);
-  }
-  #Main .Item02 {
-    width: 100vw;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../../images/Banner/purple.png);
-  }
-  #Main .Item03 {
-    width: 100vw;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../../images/Banner/green.png);
-  }
-  #Main .Item04 {
-    width: 100vw;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../../images/Banner/coffee.png);
-  }
-  #Main .Item05 {
-    width: 100vw;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../../images/Banner/blue.png);
   }
 }
 
