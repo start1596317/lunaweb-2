@@ -1,3 +1,4 @@
+// 子元素選擇器(有指向性) : 例如: header> nav > YudoIcon > li
 #Main{
     background-color: rgb(66, 67, 136);
     
@@ -62,6 +63,153 @@
            } 
         }
     }
+    
+    > #HotStar {
+        //   計算式
+        $TW : $W1P * 7 ;
+        $NW : $W1P * 10-$TW ;
+
+        $TFS: $Trem *1.7;
+        $NFS: $Trem *1.1;
+        >h1{
+            // 文字尺寸
+            font-size: $Trem * 2 + $Trem * 0.3;
+            // 標題置中
+            text-align: center;
+            // 設定與外框的距離，內間距
+            padding: {
+                top: 15px;
+                bottom: 15px;
+            }
+            background-color: cornsilk;
+           
+            
+        }
+        
+        
+        >.LCommodity{
+            background-color: blueviolet;
+            > #TitleBox{
+                // 寬度
+                width: $W1P * 10;
+                // 彈性布局s
+                display: flex;
+                // 換行
+                flex-wrap: wrap;
+               // 隱藏項目符號
+               list-style: none;
+               background-color: cornflowerblue;
+               
+               >.Title{
+                width: $TW;
+                font-size: $TFS;
+                background-color: brown;
+            }
+               >.Number{
+                    width: $NW;
+                    font-size: $NFS;
+                    text-align: right;
+                    background-color: rgb(156, 136, 57);
+                    padding: {
+                        top: $TFS - $NFS;
+                    } 
+
+               
+               }
+               >.Text{
+                width: $W1P * 10;
+                text-align: right;
+                background-color: chartreuse;
+               
+               }
+               
+              
+            }
+            >.Images{
+
+                // 寬度
+                width: 280px;
+                // 高度 設定絕對高，不會隨著裝置高度變動
+                height: 230px;
+                // 外間距
+                margin: {
+                    bottom:  10px;
+                }
+                // 圓角矩形 邊框設定轉角的角度
+                border-radius: 10px;
+                background-color: cornsilk;
+            }
+            >.Nameox{
+                width:  $W1P * 9;
+                //彈性布局 橫向排版
+                display: flex;
+                // 內間距
+                margin:  {
+                    bottom: 15px;
+                };
+                        // 隱藏項目符號
+                        
+                background-color: burlywood;
+            
+                >h3{
+                    width: $TW + 10;
+                    font-size: $Trem * 1.4;
+                }
+                >li{
+                    width: $NW - 10;
+                    list-style-type: none;
+                }
+    
+            }
+            >.Brief{
+            background-color: red;
+            //    寬度
+            width: $W1P * 8.5;
+            // 文字左右對齊
+            text-align: justify;
+            
+            
+            }
+            > #PriceBox{
+            
+            //    寬度
+            width: $W1P *9;
+            // 隱藏項目符號
+            list-style-type: none ;
+            // 彈性布局
+            display: flex;
+            padding: {
+                bottom: 10px;
+            }
+            >.OriginaPrice{
+                // 寬度
+                width: $W1P * 4;
+                // 文字尺寸
+                font-size:  $Trem * 0.9;
+                // 內間距
+                padding : {
+                    top:  $Trem *0.3;
+                }
+            }
+            }
+        }
+        
+               
+            
+
+        // >.Month{
+
+        //     >h1{
+        //         //  寬度
+        //         width:  $w10*8 ;
+        //         // 背景顏色
+        //         background-color: bisque;
+        //     }
+    
+        // }
+        
+    }
+
     
     .Item01{
         // width: $w10 * 10;
