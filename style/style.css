@@ -18,14 +18,14 @@ img {
   }
   header nav {
     /*
-        浮動對齊的問題 float
-        1.#Logo 與 # icon 物件的父框架 nav，無寬度
-        2.nav 的父框架 header ，高度消失(展開) 
-        解決方式
-        1.nav 的父框架 header ，給予高度: 或是nav 給予高度
-        2.清除浮動狀態，由 nav 設定
-        3.利用圖片高度撐開父框架的高
-        */
+    浮動對齊的問題 float
+    1.#Logo 與 # icon 物件的父框架 nav，無寬度
+    2.nav 的父框架 header ，高度消失(展開) 
+    解決方式
+    1.nav 的父框架 header ，給予高度: 或是nav 給予高度
+    2.清除浮動狀態，由 nav 設定
+    3.利用圖片高度撐開父框架的高
+    */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -60,6 +60,7 @@ img {
   header nav .Clear {
     clear: both;
   }
+
   footer {
     margin-top: 2rem;
   }
@@ -78,8 +79,9 @@ img {
   footer address {
     display: none;
   }
+
   #Main {
-    background-color: #424388;
+    background-color: #f1f5bb;
   }
   #Main #Banner {
     width: 100vw;
@@ -119,15 +121,21 @@ img {
     text-align: center;
     padding-bottom: 295px;
   }
+  #Main > #HotStar {
+    background-image: url(../../images/bg/001.jpg);
+  }
   #Main > #HotStar > h1 {
     font-size: 2.3rem;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: cornsilk;
   }
   #Main > #HotStar > .LCommodity {
     background-color: blueviolet;
+    width: 90vw;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
+            box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
   }
   #Main > #HotStar > .LCommodity > #TitleBox {
     width: 100%;
@@ -142,26 +150,26 @@ img {
   #Main > #HotStar > .LCommodity > #TitleBox > .Title {
     width: 70%;
     font-size: 1.7rem;
-    background-color: brown;
   }
   #Main > #HotStar > .LCommodity > #TitleBox > .Number {
     width: 30%;
     font-size: 1.1rem;
     text-align: right;
-    background-color: #9c8839;
     padding-top: 0.6rem;
   }
   #Main > #HotStar > .LCommodity > #TitleBox > .Text {
     width: 100%;
     text-align: right;
-    background-color: chartreuse;
   }
   #Main > #HotStar > .LCommodity > .Images {
     width: 280px;
-    height: 230px;
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: cornsilk;
+  }
+  #Main > #HotStar > .LCommodity > .Images > a > img {
+    border: 1.5px solid rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
   }
   #Main > #HotStar > .LCommodity > .Nameox {
     width: 90%;
@@ -169,7 +177,6 @@ img {
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 15px;
-    background-color: burlywood;
   }
   #Main > #HotStar > .LCommodity > .Nameox > h3 {
     width: 80%;
@@ -180,9 +187,9 @@ img {
     list-style-type: none;
   }
   #Main > #HotStar > .LCommodity > .Brief {
-    background-color: red;
     width: 85%;
     text-align: justify;
+    margin-bottom: 10px;
   }
   #Main > #HotStar > .LCommodity > #PriceBox {
     width: 90%;
@@ -196,6 +203,130 @@ img {
     width: 40%;
     font-size: 0.9rem;
     padding-top: 0.3rem;
+  }
+  #Main > #HotStar > .LCommodity > #PriceBox > .BargainPrice {
+    font-size: 1.2rem;
+  }
+  #Main > #HotStar > .LCommodity > #PriceBox > Car {
+    width: 20%;
+  }
+  #Main > #HotStar > .more {
+    width: 80%;
+    text-align: right;
+    list-style: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+  #Main > #HotStar > .more > a {
+    padding: 2.5px 10px 0.1px;
+    display: inline-block;
+    background-color: #49c769;
+    text-decoration: none;
+    color: #6a8aa7;
+    border-radius: 35px;
+  }
+  #Main > #Share > h1 {
+    font-size: 2.3rem;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  #Main > #Share > .LCommodity {
+    background-color: blueviolet;
+    -webkit-box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
+            box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
+  }
+  #Main > #Share > .LCommodity > #TitleBox {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    list-style: none;
+    background-color: cornflowerblue;
+  }
+  #Main > #Share > .LCommodity > #TitleBox > .Title {
+    width: 70%;
+    font-size: 1.7rem;
+  }
+  #Main > #Share > .LCommodity > #TitleBox > .Number {
+    width: 30%;
+    font-size: 1.1rem;
+    text-align: right;
+    padding-top: 0.6rem;
+  }
+  #Main > #Share > .LCommodity > #TitleBox > .Text {
+    width: 100%;
+    text-align: right;
+  }
+  #Main > #Share > .LCommodity > .Images {
+    width: 280px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: cornsilk;
+  }
+  #Main > #Share > .LCommodity > .Images > a > img {
+    border: 1.5px solid rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+  }
+  #Main > #Share > .LCommodity > .Nameox {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 15px;
+  }
+  #Main > #Share > .LCommodity > .Nameox > h3 {
+    width: 80%;
+    font-size: 1.4rem;
+  }
+  #Main > #Share > .LCommodity > .Nameox > li {
+    width: 20%;
+    list-style-type: none;
+  }
+  #Main > #Share > .LCommodity > .Brief {
+    width: 85%;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  #Main > #Share > .LCommodity > #PriceBox {
+    width: 90%;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 10px;
+  }
+  #Main > #Share > .LCommodity > #PriceBox > .OriginaPrice {
+    width: 40%;
+    font-size: 0.9rem;
+    padding-top: 0.3rem;
+  }
+  #Main > #Share > .LCommodity > #PriceBox > .BargainPrice {
+    font-size: 1.2rem;
+  }
+  #Main > #Share > .LCommodity > #PriceBox > Car {
+    width: 20%;
+  }
+  #Main > #Share > .more {
+    width: 80%;
+    text-align: right;
+    list-style: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+  #Main > #Share > .more > a {
+    padding: 2.5px 10px 0.1px;
+    display: inline-block;
+    background-color: #49c769;
+    text-decoration: none;
+    color: #6a8aa7;
+    border-radius: 35px;
   }
   #Main .Item01 {
     width: 100vw;
@@ -233,7 +364,6 @@ img {
     background-image: url(../../images/Banner/blue.png);
   }
 }
-
 @media screen and (min-width: 576px) {
   header {
     width: 100vw;
@@ -241,14 +371,14 @@ img {
   }
   header nav {
     /*
-        浮動對齊的問題 float
-        1.#Logo 與 # icon 物件的父框架 nav，無寬度
-        2.nav 的父框架 header ，高度消失(展開) 
-        解決方式
-        1.nav 的父框架 header ，給予高度: 或是nav 給予高度
-        2.清除浮動狀態，由 nav 設定
-        3.利用圖片高度撐開父框架的高
-        */
+    浮動對齊的問題 float
+    1.#Logo 與 # icon 物件的父框架 nav，無寬度
+    2.nav 的父框架 header ，高度消失(展開) 
+    解決方式
+    1.nav 的父框架 header ，給予高度: 或是nav 給予高度
+    2.清除浮動狀態，由 nav 設定
+    3.利用圖片高度撐開父框架的高
+    */
     height: 10vh;
   }
   header nav #Logo {
@@ -274,6 +404,7 @@ img {
   header nav .Clear {
     clear: both;
   }
+
   footer {
     margin-top: 2rem;
   }
@@ -292,8 +423,9 @@ img {
   footer address {
     display: none;
   }
+
   #Main {
-    background-color: #424388;
+    background-color: #f1f5bb;
   }
   #Main #Banner {
     width: 100vw;
@@ -333,6 +465,223 @@ img {
     text-align: center;
     padding-bottom: 295px;
   }
+  #Main > #HotStar {
+    background-image: url(../../images/bg/001.jpg);
+  }
+  #Main > #HotStar > h1 {
+    font-size: 2.3rem;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  #Main > #HotStar > .LCommodity {
+    background-color: #edeeb7;
+    width: 75vw;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
+            box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
+  }
+  #Main > #HotStar > .LCommodity > #TitleBox {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    list-style: none;
+    background-color: cornflowerblue;
+  }
+  #Main > #HotStar > .LCommodity > #TitleBox > .Title {
+    width: 70%;
+    font-size: 1.7rem;
+  }
+  #Main > #HotStar > .LCommodity > #TitleBox > .Number {
+    width: 30%;
+    font-size: 1.1rem;
+    text-align: right;
+    padding-top: 0.6rem;
+  }
+  #Main > #HotStar > .LCommodity > #TitleBox > .Text {
+    width: 100%;
+    text-align: right;
+  }
+  #Main > #HotStar > .LCommodity > .Images {
+    width: 280px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: cornsilk;
+  }
+  #Main > #HotStar > .LCommodity > .Images > a > img {
+    border: 1.5px solid rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+  }
+  #Main > #HotStar > .LCommodity > .Nameox {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 15px;
+  }
+  #Main > #HotStar > .LCommodity > .Nameox > h3 {
+    width: 80%;
+    font-size: 1.4rem;
+  }
+  #Main > #HotStar > .LCommodity > .Nameox > li {
+    width: 20%;
+    list-style-type: none;
+  }
+  #Main > #HotStar > .LCommodity > .Brief {
+    width: 85%;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  #Main > #HotStar > .LCommodity > #PriceBox {
+    width: 90%;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 10px;
+  }
+  #Main > #HotStar > .LCommodity > #PriceBox > .OriginaPrice {
+    width: 40%;
+    font-size: 0.9rem;
+    padding-top: 0.3rem;
+  }
+  #Main > #HotStar > .LCommodity > #PriceBox > .BargainPrice {
+    font-size: 1.2rem;
+  }
+  #Main > #HotStar > .LCommodity > #PriceBox > Car {
+    width: 20%;
+  }
+  #Main > #HotStar > .more {
+    width: 80%;
+    text-align: right;
+    list-style: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+  #Main > #HotStar > .more > a {
+    padding: 2.5px 10px 0.1px;
+    display: inline-block;
+    background-color: #49c769;
+    text-decoration: none;
+    color: #6a8aa7;
+    border-radius: 35px;
+  }
+  #Main > #Share {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #Main > #Share > h1 {
+    width: 100%;
+    font-size: 2.3rem;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  #Main > #Share > .LCommodity {
+    background-color: #edeeb7;
+    width: 45vw;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
+            box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
+  }
+  #Main > #Share > .LCommodity > #TitleBox {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    list-style: none;
+    background-color: #2c8f23;
+  }
+  #Main > #Share > .LCommodity > #TitleBox > .Title {
+    width: 70%;
+    font-size: 1.7rem;
+  }
+  #Main > #Share > .LCommodity > #TitleBox > .Number {
+    width: 30%;
+    font-size: 1.1rem;
+    text-align: right;
+    padding-top: 0.6rem;
+  }
+  #Main > #Share > .LCommodity > #TitleBox > .Text {
+    width: 100%;
+    text-align: right;
+  }
+  #Main > #Share > .LCommodity > .Images {
+    width: 280px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: cornsilk;
+  }
+  #Main > #Share > .LCommodity > .Images > a > img {
+    border: 1.5px solid rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+  }
+  #Main > #Share > .LCommodity > .Nameox {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 15px;
+  }
+  #Main > #Share > .LCommodity > .Nameox > h3 {
+    width: 80%;
+    font-size: 1.4rem;
+  }
+  #Main > #Share > .LCommodity > .Nameox > li {
+    width: 20%;
+    list-style-type: none;
+  }
+  #Main > #Share > .LCommodity > .Brief {
+    width: 85%;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  #Main > #Share > .LCommodity > #PriceBox {
+    width: 90%;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 10px;
+  }
+  #Main > #Share > .LCommodity > #PriceBox > .OriginaPrice {
+    width: 40%;
+    font-size: 0.9rem;
+    padding-top: 0.3rem;
+  }
+  #Main > #Share > .LCommodity > #PriceBox > .BargainPrice {
+    font-size: 1.2rem;
+  }
+  #Main > #Share > .LCommodity > #PriceBox > Car {
+    width: 20%;
+  }
+  #Main > #Share > .more {
+    width: 80%;
+    text-align: right;
+    list-style: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+  #Main > #Share > .more > a {
+    padding: 2.5px 10px 0.1px;
+    display: inline-block;
+    background-color: #49c769;
+    text-decoration: none;
+    color: #6a8aa7;
+    border-radius: 35px;
+  }
   #Main .Item01 {
     width: 100vw;
     background-repeat: no-repeat;
@@ -369,7 +718,6 @@ img {
     background-image: url(../../images/Banner/blue.png);
   }
 }
-
 @media screen and (min-width: 768px) {
   header {
     width: 100vw;
@@ -377,14 +725,14 @@ img {
   }
   header nav {
     /*
-        浮動對齊的問題 float
-        1.#Logo 與 # icon 物件的父框架 nav，無寬度
-        2.nav 的父框架 header ，高度消失(展開) 
-        解決方式
-        1.nav 的父框架 header ，給予高度: 或是nav 給予高度
-        2.清除浮動狀態，由 nav 設定
-        3.利用圖片高度撐開父框架的高
-        */
+    浮動對齊的問題 float
+    1.#Logo 與 # icon 物件的父框架 nav，無寬度
+    2.nav 的父框架 header ，高度消失(展開) 
+    解決方式
+    1.nav 的父框架 header ，給予高度: 或是nav 給予高度
+    2.清除浮動狀態，由 nav 設定
+    3.利用圖片高度撐開父框架的高
+    */
     height: 10vh;
   }
   header nav #Logo {
@@ -411,7 +759,6 @@ img {
     clear: both;
   }
 }
-
 @media screen and (min-width: 992px) {
   header {
     width: 100vw;
@@ -442,11 +789,11 @@ img {
     display: -ms-flexbox;
     display: flex;
   }
+
   footer address {
     display: none;
   }
 }
-
 @media screen and (min-width: 1200px) {
   header {
     width: 100vw;
@@ -459,8 +806,8 @@ img {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+
   footer address {
     display: none;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
