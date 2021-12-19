@@ -130,14 +130,14 @@ img {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  #Main > #HotStar > .LCommodity {
+  #Main > #HotStar > article > .LCommodity {
     background-color: blueviolet;
     width: 90vw;
     margin-bottom: 20px;
     -webkit-box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
             box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
   }
-  #Main > #HotStar > .LCommodity > #TitleBox {
+  #Main > #HotStar > article > .LCommodity > #TitleBox {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -147,51 +147,51 @@ img {
     list-style: none;
     background-color: cornflowerblue;
   }
-  #Main > #HotStar > .LCommodity > #TitleBox > .Title {
+  #Main > #HotStar > article > .LCommodity > #TitleBox > .Title {
     width: 70%;
     font-size: 1.7rem;
   }
-  #Main > #HotStar > .LCommodity > #TitleBox > .Number {
+  #Main > #HotStar > article > .LCommodity > #TitleBox > .Number {
     width: 30%;
     font-size: 1.1rem;
     text-align: right;
     padding-top: 0.6rem;
   }
-  #Main > #HotStar > .LCommodity > #TitleBox > .Text {
+  #Main > #HotStar > article > .LCommodity > #TitleBox > .Text {
     width: 100%;
     text-align: right;
   }
-  #Main > #HotStar > .LCommodity > .Images {
+  #Main > #HotStar > article > .LCommodity > .Images {
     width: 280px;
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: cornsilk;
   }
-  #Main > #HotStar > .LCommodity > .Images > a > img {
+  #Main > #HotStar > article > .LCommodity > .Images > a > img {
     border: 1.5px solid rgba(255, 255, 255, 0.25);
     border-radius: 15px;
   }
-  #Main > #HotStar > .LCommodity > .Nameox {
+  #Main > #HotStar > article > .LCommodity > .Nameox {
     width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 15px;
   }
-  #Main > #HotStar > .LCommodity > .Nameox > h3 {
+  #Main > #HotStar > article > .LCommodity > .Nameox > h3 {
     width: 80%;
     font-size: 1.4rem;
   }
-  #Main > #HotStar > .LCommodity > .Nameox > li {
+  #Main > #HotStar > article > .LCommodity > .Nameox > li {
     width: 20%;
     list-style-type: none;
   }
-  #Main > #HotStar > .LCommodity > .Brief {
+  #Main > #HotStar > article > .LCommodity > .Brief {
     width: 85%;
     text-align: justify;
     margin-bottom: 10px;
   }
-  #Main > #HotStar > .LCommodity > #PriceBox {
+  #Main > #HotStar > article > .LCommodity > #PriceBox {
     width: 90%;
     list-style-type: none;
     display: -webkit-box;
@@ -199,15 +199,15 @@ img {
     display: flex;
     padding-bottom: 10px;
   }
-  #Main > #HotStar > .LCommodity > #PriceBox > .OriginaPrice {
+  #Main > #HotStar > article > .LCommodity > #PriceBox > .OriginaPrice {
     width: 40%;
     font-size: 0.9rem;
     padding-top: 0.3rem;
   }
-  #Main > #HotStar > .LCommodity > #PriceBox > .BargainPrice {
+  #Main > #HotStar > article > .LCommodity > #PriceBox > .BargainPrice {
     font-size: 1.2rem;
   }
-  #Main > #HotStar > .LCommodity > #PriceBox > Car {
+  #Main > #HotStar > article > .LCommodity > #PriceBox > .Car {
     width: 20%;
   }
   #Main > #HotStar > .more {
@@ -233,12 +233,12 @@ img {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  #Main > #Share > .LCommodity {
+  #Main > #Share > article > .LCommodity {
     background-color: blueviolet;
     -webkit-box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
             box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
   }
-  #Main > #Share > .LCommodity > #TitleBox {
+  #Main > #Share > article > .LCommodity > #TitleBox {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -248,51 +248,51 @@ img {
     list-style: none;
     background-color: cornflowerblue;
   }
-  #Main > #Share > .LCommodity > #TitleBox > .Title {
+  #Main > #Share > article > .LCommodity > #TitleBox > .Title {
     width: 70%;
     font-size: 1.7rem;
   }
-  #Main > #Share > .LCommodity > #TitleBox > .Number {
+  #Main > #Share > article > .LCommodity > #TitleBox > .Number {
     width: 30%;
     font-size: 1.1rem;
     text-align: right;
     padding-top: 0.6rem;
   }
-  #Main > #Share > .LCommodity > #TitleBox > .Text {
+  #Main > #Share > article > .LCommodity > #TitleBox > .Text {
     width: 100%;
     text-align: right;
   }
-  #Main > #Share > .LCommodity > .Images {
+  #Main > #Share > article > .LCommodity > .Images {
     width: 280px;
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: cornsilk;
   }
-  #Main > #Share > .LCommodity > .Images > a > img {
+  #Main > #Share > article > .LCommodity > .Images > a > img {
     border: 1.5px solid rgba(255, 255, 255, 0.25);
     border-radius: 15px;
   }
-  #Main > #Share > .LCommodity > .Nameox {
+  #Main > #Share > article > .LCommodity > .Nameox {
     width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 15px;
   }
-  #Main > #Share > .LCommodity > .Nameox > h3 {
+  #Main > #Share > article > .LCommodity > .Nameox > h3 {
     width: 80%;
     font-size: 1.4rem;
   }
-  #Main > #Share > .LCommodity > .Nameox > li {
+  #Main > #Share > article > .LCommodity > .Nameox > li {
     width: 20%;
     list-style-type: none;
   }
-  #Main > #Share > .LCommodity > .Brief {
+  #Main > #Share > article > .LCommodity > .Brief {
     width: 85%;
     text-align: justify;
     margin-bottom: 10px;
   }
-  #Main > #Share > .LCommodity > #PriceBox {
+  #Main > #Share > article > .LCommodity > #PriceBox {
     width: 90%;
     list-style-type: none;
     display: -webkit-box;
@@ -300,15 +300,15 @@ img {
     display: flex;
     padding-bottom: 10px;
   }
-  #Main > #Share > .LCommodity > #PriceBox > .OriginaPrice {
+  #Main > #Share > article > .LCommodity > #PriceBox > .OriginaPrice {
     width: 40%;
     font-size: 0.9rem;
     padding-top: 0.3rem;
   }
-  #Main > #Share > .LCommodity > #PriceBox > .BargainPrice {
+  #Main > #Share > article > .LCommodity > #PriceBox > .BargainPrice {
     font-size: 1.2rem;
   }
-  #Main > #Share > .LCommodity > #PriceBox > Car {
+  #Main > #Share > article > .LCommodity > #PriceBox > Car {
     width: 20%;
   }
   #Main > #Share > .more {
@@ -474,9 +474,708 @@ img {
     padding-top: 15px;
     padding-bottom: 15px;
   }
+  #Main > #HotStar > article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #Main > #HotStar > article > .LCommodity {
+    background-color: #edeeb7;
+    width: 47%;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
+            box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
+  }
+  #Main > #HotStar > article > .LCommodity > #TitleBox {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    list-style: none;
+    background-color: cornflowerblue;
+  }
+  #Main > #HotStar > article > .LCommodity > #TitleBox > .Title {
+    width: 70%;
+    font-size: 1.7rem;
+  }
+  #Main > #HotStar > article > .LCommodity > #TitleBox > .Number {
+    width: 30%;
+    font-size: 1.1rem;
+    text-align: right;
+    padding-top: 0.6rem;
+  }
+  #Main > #HotStar > article > .LCommodity > #TitleBox > .Text {
+    width: 100%;
+    text-align: right;
+  }
+  #Main > #HotStar > article > .LCommodity > .Images {
+    width: 90%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: cornsilk;
+  }
+  #Main > #HotStar > article > .LCommodity > .Images > a > img {
+    border: 1.5px solid rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+  }
+  #Main > #HotStar > article > .LCommodity > .Nameox {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 15px;
+  }
+  #Main > #HotStar > article > .LCommodity > .Nameox > h3 {
+    width: 80%;
+    font-size: 1.4rem;
+  }
+  #Main > #HotStar > article > .LCommodity > .Nameox > li {
+    width: 20%;
+    list-style-type: none;
+  }
+  #Main > #HotStar > article > .LCommodity > .Brief {
+    width: 85%;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  #Main > #HotStar > article > .LCommodity > #PriceBox {
+    width: 90%;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 10px;
+  }
+  #Main > #HotStar > article > .LCommodity > #PriceBox > .OriginaPrice {
+    width: 40%;
+    font-size: 0.9rem;
+    padding-top: 0.3rem;
+  }
+  #Main > #HotStar > article > .LCommodity > #PriceBox > .BargainPrice {
+    font-size: 1.2rem;
+  }
+  #Main > #HotStar > article > .LCommodity > #PriceBox > Car {
+    width: 20%;
+  }
+  #Main > #HotStar > .more {
+    width: 80%;
+    text-align: right;
+    list-style: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+  #Main > #HotStar > .more > a {
+    padding: 2.5px 10px 0.1px;
+    display: inline-block;
+    background-color: #49c769;
+    text-decoration: none;
+    color: #6a8aa7;
+    border-radius: 35px;
+  }
+  #Main > #Share > h1 {
+    width: 100%;
+    font-size: 2.3rem;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  #Main > #Share > article {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #Main > #Share > article > .LCommodity {
+    background-color: #edeeb7;
+    width: 47%;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
+            box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
+  }
+  #Main > #Share > article > .LCommodity > #TitleBox {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    list-style: none;
+    background-color: #2c8f23;
+  }
+  #Main > #Share > article > .LCommodity > #TitleBox > .Title {
+    width: 70%;
+    font-size: 1.7rem;
+  }
+  #Main > #Share > article > .LCommodity > #TitleBox > .Number {
+    width: 30%;
+    font-size: 1.1rem;
+    text-align: right;
+    padding-top: 0.6rem;
+  }
+  #Main > #Share > article > .LCommodity > #TitleBox > .Text {
+    width: 100%;
+    text-align: right;
+  }
+  #Main > #Share > article > .LCommodity > .Images {
+    width: 90%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: cornsilk;
+  }
+  #Main > #Share > article > .LCommodity > .Images > a > img {
+    border: 1.5px solid rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+  }
+  #Main > #Share > article > .LCommodity > .Nameox {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 15px;
+  }
+  #Main > #Share > article > .LCommodity > .Nameox > h3 {
+    width: 80%;
+    font-size: 1.4rem;
+  }
+  #Main > #Share > article > .LCommodity > .Nameox > li {
+    width: 20%;
+    list-style-type: none;
+  }
+  #Main > #Share > article > .LCommodity > .Brief {
+    width: 85%;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  #Main > #Share > article > .LCommodity > #PriceBox {
+    width: 90%;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 10px;
+  }
+  #Main > #Share > article > .LCommodity > #PriceBox > .OriginaPrice {
+    width: 40%;
+    font-size: 0.9rem;
+    padding-top: 0.3rem;
+  }
+  #Main > #Share > article > .LCommodity > #PriceBox > .BargainPrice {
+    font-size: 1.2rem;
+  }
+  #Main > #Share > article > .LCommodity > #PriceBox > Car {
+    width: 20%;
+  }
+  #Main > #Share > .more {
+    width: 50%;
+    text-align: right;
+    list-style: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+  #Main > #Share > .more > a {
+    padding: 2.5px 10px 0.1px;
+    display: inline-block;
+    background-color: #49c769;
+    text-decoration: none;
+    color: #6a8aa7;
+    border-radius: 35px;
+  }
+  #Main .Item01 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/Banner/yellow.png);
+  }
+  #Main .Item02 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/Banner/purple.png);
+  }
+  #Main .Item03 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/Banner/green.png);
+  }
+  #Main .Item04 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/Banner/coffee.png);
+  }
+  #Main .Item05 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/Banner/blue.png);
+  }
+}
+@media screen and (min-width: 768px) {
+  header {
+    width: 100vw;
+    background-color: #57174c;
+  }
+  header nav {
+    /*
+    浮動對齊的問題 float
+    1.#Logo 與 # icon 物件的父框架 nav，無寬度
+    2.nav 的父框架 header ，高度消失(展開) 
+    解決方式
+    1.nav 的父框架 header ，給予高度: 或是nav 給予高度
+    2.清除浮動狀態，由 nav 設定
+    3.利用圖片高度撐開父框架的高
+    */
+    height: 10vh;
+  }
+  header nav #Logo {
+    width: 85vw;
+  }
+  header nav #MenuBoton {
+    width: 15vw;
+  }
+  header nav #Logo {
+    float: left;
+    background-color: ivory;
+  }
+  header nav .Btnbox {
+    background-color: #b6bee6;
+    display: none;
+  }
+  header nav #icon {
+    display: none;
+  }
+  header nav #MenuBoton {
+    float: left;
+  }
+  header nav .Clear {
+    clear: both;
+  }
+}
+@media screen and (min-width: 992px) {
+  header {
+    width: 100vw;
+    background-color: #60cab3;
+  }
+  header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  header nav .Btnbox {
+    background-color: #deeb29;
+  }
+  header nav #icon {
+    display: block;
+    width: 70vw;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header nav #MenuBoton {
+    display: none;
+    width: 30;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  footer address {
+    display: none;
+  }
+
+  #Main {
+    background-color: #f1f5bb;
+  }
+  #Main #Banner {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+  }
+  #Main #Banner .Btn {
+    width: 30px;
+    height: 95px;
+    text-align: center;
+    line-height: 95px;
+    font-size: 1.2rem;
+    position: absolute;
+    z-index: 15;
+    top: 145px;
+    border-radius: 15px;
+  }
+  #Main #Banner .LeftBtn {
+    left: 2.5vw;
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  #Main #Banner .ReftBtn {
+    right: 5.5vw;
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  #Main #Banner #ImageBox {
+    width: 100vw;
+    list-style: none;
+    padding-bottom: 385px;
+    background-color: #f0e8e8;
+  }
+  #Main #Banner #ImageBox li {
+    width: 100vw;
+    float: left;
+    position: absolute;
+    font-size: 72px;
+    text-align: center;
+    padding-bottom: 295px;
+  }
+  #Main > #HotStar {
+    background-image: url(../../images/bg/001.jpg);
+  }
+  #Main > #HotStar > h1 {
+    width: 100%;
+    font-size: 2.3rem;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  #Main > #HotStar > article {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #Main > #HotStar > article > .LCommodity {
+    background-color: #edeeb7;
+    width: 22%;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
+            box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
+  }
+  #Main > #HotStar > article > .LCommodity > #TitleBox {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    list-style: none;
+    background-color: cornflowerblue;
+  }
+  #Main > #HotStar > article > .LCommodity > #TitleBox > .Title {
+    width: 70%;
+    font-size: 1.7rem;
+  }
+  #Main > #HotStar > article > .LCommodity > #TitleBox > .Number {
+    width: 30%;
+    font-size: 1.1rem;
+    text-align: right;
+    padding-top: 0.6rem;
+  }
+  #Main > #HotStar > article > .LCommodity > #TitleBox > .Text {
+    width: 100%;
+    text-align: right;
+  }
+  #Main > #HotStar > article > .LCommodity > .Images {
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: cornsilk;
+  }
+  #Main > #HotStar > article > .LCommodity > .Images > a > img {
+    border: 1.5px solid rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+  }
+  #Main > #HotStar > article > .LCommodity > .Nameox {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 15px;
+  }
+  #Main > #HotStar > article > .LCommodity > .Nameox > h3 {
+    width: 80%;
+    font-size: 1.4rem;
+  }
+  #Main > #HotStar > article > .LCommodity > .Nameox > li {
+    width: 20%;
+    list-style-type: none;
+  }
+  #Main > #HotStar > article > .LCommodity > .Brief {
+    width: 85%;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  #Main > #HotStar > article > .LCommodity > #PriceBox {
+    width: 90%;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 10px;
+  }
+  #Main > #HotStar > article > .LCommodity > #PriceBox > .OriginaPrice {
+    width: 40%;
+    font-size: 0.9rem;
+    padding-top: 0.3rem;
+  }
+  #Main > #HotStar > article > .LCommodity > #PriceBox > .BargainPrice {
+    font-size: 1.2rem;
+  }
+  #Main > #HotStar > article > .LCommodity > #PriceBox > .Car {
+    width: 20%;
+  }
+  #Main > #HotStar > .more {
+    width: 80%;
+    text-align: right;
+    list-style: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+  #Main > #HotStar > .more > a {
+    padding: 2.5px 10px 0.1px;
+    display: inline-block;
+    background-color: #49c769;
+    text-decoration: none;
+    color: #6a8aa7;
+    border-radius: 35px;
+  }
+  #Main > #Share > h1 {
+    width: 100%;
+    font-size: 2.3rem;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  #Main > #Share > article {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #Main > #Share > article > .LCommodity {
+    background-color: #edeeb7;
+    width: 45vw;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
+            box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
+  }
+  #Main > #Share > article > .LCommodity > #TitleBox {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    list-style: none;
+    background-color: #2c8f23;
+  }
+  #Main > #Share > article > .LCommodity > #TitleBox > .Title {
+    width: 70%;
+    font-size: 1.7rem;
+  }
+  #Main > #Share > article > .LCommodity > #TitleBox > .Number {
+    width: 30%;
+    font-size: 1.1rem;
+    text-align: right;
+    padding-top: 0.6rem;
+  }
+  #Main > #Share > article > .LCommodity > #TitleBox > .Text {
+    width: 100%;
+    text-align: right;
+  }
+  #Main > #Share > article > .LCommodity > .Images {
+    width: 90%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: cornsilk;
+  }
+  #Main > #Share > article > .LCommodity > .Images > a > img {
+    border: 1.5px solid rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+  }
+  #Main > #Share > article > .LCommodity > .Nameox {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 15px;
+  }
+  #Main > #Share > article > .LCommodity > .Nameox > h3 {
+    width: 80%;
+    font-size: 1.4rem;
+  }
+  #Main > #Share > article > .LCommodity > .Nameox > li {
+    width: 20%;
+    list-style-type: none;
+  }
+  #Main > #Share > article > .LCommodity > .Brief {
+    width: 85%;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  #Main > #Share > article > .LCommodity > #PriceBox {
+    width: 90%;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 10px;
+  }
+  #Main > #Share > article > .LCommodity > #PriceBox > .OriginaPrice {
+    width: 40%;
+    font-size: 0.9rem;
+    padding-top: 0.3rem;
+  }
+  #Main > #Share > article > .LCommodity > #PriceBox > .BargainPrice {
+    font-size: 1.2rem;
+  }
+  #Main > #Share > article > .LCommodity > #PriceBox > Car {
+    width: 20%;
+  }
+  #Main > #Share > .more {
+    width: 80%;
+    text-align: right;
+    list-style: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+  #Main > #Share > .more > a {
+    padding: 2.5px 10px 0.1px;
+    display: inline-block;
+    background-color: #49c769;
+    text-decoration: none;
+    color: #6a8aa7;
+    border-radius: 35px;
+  }
+  #Main .Item01 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/Banner/yellow.png);
+  }
+  #Main .Item02 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/Banner/purple.png);
+  }
+  #Main .Item03 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/Banner/green.png);
+  }
+  #Main .Item04 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/Banner/coffee.png);
+  }
+  #Main .Item05 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/Banner/blue.png);
+  }
+}
+@media screen and (min-width: 1200px) {
+  header {
+    width: 100vw;
+    background-color: #da903b;
+  }
+  header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  footer address {
+    display: none;
+  }
+
+  #Main {
+    background-color: #f1f5bb;
+  }
+  #Main #Banner {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+  }
+  #Main #Banner .Btn {
+    width: 30px;
+    height: 95px;
+    text-align: center;
+    line-height: 95px;
+    font-size: 1.2rem;
+    position: absolute;
+    z-index: 15;
+    top: 145px;
+    border-radius: 15px;
+  }
+  #Main #Banner .LeftBtn {
+    left: 2.5vw;
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  #Main #Banner .ReftBtn {
+    right: 5.5vw;
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  #Main #Banner #ImageBox {
+    width: 100vw;
+    list-style: none;
+    padding-bottom: 385px;
+    background-color: #f0e8e8;
+  }
+  #Main #Banner #ImageBox li {
+    width: 100vw;
+    float: left;
+    position: absolute;
+    font-size: 72px;
+    text-align: center;
+    padding-bottom: 295px;
+  }
+  #Main > #HotStar {
+    background-image: url(../../images/bg/001.jpg);
+  }
+  #Main > #HotStar > h1 {
+    font-size: 2.3rem;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
   #Main > #HotStar > .LCommodity {
     background-color: #edeeb7;
-    width: 75vw;
+    width: 25vw;
     margin-bottom: 20px;
     -webkit-box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
             box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
@@ -716,98 +1415,5 @@ img {
     background-position: center;
     background-size: cover;
     background-image: url(../../images/Banner/blue.png);
-  }
-}
-@media screen and (min-width: 768px) {
-  header {
-    width: 100vw;
-    background-color: #57174c;
-  }
-  header nav {
-    /*
-    浮動對齊的問題 float
-    1.#Logo 與 # icon 物件的父框架 nav，無寬度
-    2.nav 的父框架 header ，高度消失(展開) 
-    解決方式
-    1.nav 的父框架 header ，給予高度: 或是nav 給予高度
-    2.清除浮動狀態，由 nav 設定
-    3.利用圖片高度撐開父框架的高
-    */
-    height: 10vh;
-  }
-  header nav #Logo {
-    width: 85vw;
-  }
-  header nav #MenuBoton {
-    width: 15vw;
-  }
-  header nav #Logo {
-    float: left;
-    background-color: ivory;
-  }
-  header nav .Btnbox {
-    background-color: #b6bee6;
-    display: none;
-  }
-  header nav #icon {
-    display: none;
-  }
-  header nav #MenuBoton {
-    float: left;
-  }
-  header nav .Clear {
-    clear: both;
-  }
-}
-@media screen and (min-width: 992px) {
-  header {
-    width: 100vw;
-    background-color: #60cab3;
-  }
-  header nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  header nav .Btnbox {
-    background-color: #deeb29;
-  }
-  header nav #icon {
-    display: block;
-    width: 70vw;
-    list-style-type: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  header nav #MenuBoton {
-    display: none;
-    width: 30;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-
-  footer address {
-    display: none;
-  }
-}
-@media screen and (min-width: 1200px) {
-  header {
-    width: 100vw;
-    background-color: #da903b;
-  }
-  header nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-
-  footer address {
-    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
