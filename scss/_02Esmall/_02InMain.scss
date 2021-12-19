@@ -1,6 +1,6 @@
 // 子元素選擇器(有指向性) : 例如: header> nav > YudoIcon > li
 #Main{
-    background-color: rgb(66, 67, 136);
+    background-color: rgb(241, 245, 187);
     
     #Banner{
         $ImgPadding:385px;
@@ -63,7 +63,7 @@
            } 
         }
     }
-    
+   
     > #HotStar {
         //   計算式
         $TW : $W1P * 7 ;
@@ -71,6 +71,7 @@
 
         $TFS: $Trem *1.7;
         $NFS: $Trem *1.1;
+        background-image: url(../../images/bg/001.jpg); 
         >h1{
             // 文字尺寸
             font-size: $Trem * 2 + $Trem * 0.3;
@@ -81,14 +82,14 @@
                 top: 15px;
                 bottom: 15px;
             }
-            background-color: cornsilk;
-           
             
         }
-        
+       
         
         >.LCommodity{
             background-color: blueviolet;
+            // 陰影
+            box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
             > #TitleBox{
                 // 寬度
                 width: $W1P * 10;
@@ -103,13 +104,11 @@
                >.Title{
                 width: $TW;
                 font-size: $TFS;
-                background-color: brown;
             }
                >.Number{
                     width: $NW;
                     font-size: $NFS;
                     text-align: right;
-                    background-color: rgb(156, 136, 57);
                     padding: {
                         top: $TFS - $NFS;
                     } 
@@ -118,8 +117,7 @@
                }
                >.Text{
                 width: $W1P * 10;
-                text-align: right;
-                background-color: chartreuse;
+                text-align: right; 
                
                }
                
@@ -130,7 +128,7 @@
                 // 寬度
                 width: 280px;
                 // 高度 設定絕對高，不會隨著裝置高度變動
-                height: 230px;
+                // height: 230px;
                 // 外間距
                 margin: {
                     bottom:  10px;
@@ -138,6 +136,13 @@
                 // 圓角矩形 邊框設定轉角的角度
                 border-radius: 10px;
                 background-color: cornsilk;
+                > a{
+                    >img{
+                        // 圖片邊框 線段的粗細樣式(實線)顏色
+                        border: 1.5px solid rgba(255, 255,0255, 0.25);
+                        border-radius:15px ;
+                    }
+                }
             }
             >.Nameox{
                 width:  $W1P * 9;
@@ -148,9 +153,7 @@
                     bottom: 15px;
                 };
                         // 隱藏項目符號
-                        
-                background-color: burlywood;
-            
+
                 >h3{
                     width: $TW + 10;
                     font-size: $Trem * 1.4;
@@ -162,11 +165,14 @@
     
             }
             >.Brief{
-            background-color: red;
             //    寬度
             width: $W1P * 8.5;
             // 文字左右對齊
             text-align: justify;
+            // 外間距
+            margin: {
+                 bottom: 10px;
+            }
             
             
             }
@@ -191,25 +197,233 @@
                     top:  $Trem *0.3;
                 }
             }
+            >.BargainPrice{
+                // 寬度
+                // 文字尺寸
+                font-size: $Trem * 1.2;
             }
+            > Car {
+                // 寬度
+                width: $W1P * 2;
+            }
+            }
+    }
+             > .more{
+              width:  $W1P * 8;
+             //文字對齊 右
+                text-align: right;
+                // 隱藏項目符號
+                @include DNli;
+                // 文字尺寸
+                font-size:  $Trem * 1.2;
+                // 英文轉大寫
+                text-transform: uppercase;
+                // 字距
+                letter-spacing: 2px;
+                
+                // 外間距
+                margin: {
+                    bottom: 15px
+                }
+
+                > a {
+                    // 寬度 高度 px 設定 內間距 padding 上下 左右
+                    padding:  2.5px 10px 0.1px;
+                    // 顯示方式 文字方塊
+                    display: inline-block;
+                    background-color: rgb(73, 199, 105);
+                // 取消連結底線樣式
+                    text-decoration: none;
+                    // 顏色
+                    color: rgb(106, 138, 167);
+                    //圓角矩形
+                    border-radius: 35px; 
         }
-        
-               
-            
-
-        // >.Month{
-
-        //     >h1{
-        //         //  寬度
-        //         width:  $w10*8 ;
-        //         // 背景顏色
-        //         background-color: bisque;
-        //     }
-    
-        // }
+     
+}
         
     }
+    > #Share {
+        //   計算式
+        $TW : $W1P * 7 ;
+        $NW : $W1P * 10-$TW ;
 
+        $TFS: $Trem *1.7;
+        $NFS: $Trem *1.1;
+
+        >h1{
+            // 文字尺寸
+            font-size: $Trem * 2 + $Trem * 0.3;
+            // 標題置中
+            text-align: center;
+            // 設定與外框的距離，內間距
+            padding: {
+                top: 15px;
+                bottom: 15px;
+            }
+            
+        }
+       
+        
+        >.LCommodity{
+            background-color: blueviolet;
+            // 陰影
+            box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
+            > #TitleBox{
+                // 寬度
+                width: $W1P * 10;
+                // 彈性布局s
+                display: flex;
+                // 換行
+                flex-wrap: wrap;
+               // 隱藏項目符號
+               list-style: none;
+               background-color: cornflowerblue;
+               
+               >.Title{
+                width: $TW;
+                font-size: $TFS;
+            }
+               >.Number{
+                    width: $NW;
+                    font-size: $NFS;
+                    text-align: right;
+                    padding: {
+                        top: $TFS - $NFS;
+                    } 
+
+               
+               }
+               >.Text{
+                width: $W1P * 10;
+                text-align: right; 
+               
+               }
+               
+              
+            }
+            >.Images{
+
+                // 寬度
+                width: 280px;
+                // 高度 設定絕對高，不會隨著裝置高度變動
+                // height: 230px;
+                // 外間距
+                margin: {
+                    bottom:  10px;
+                }
+                // 圓角矩形 邊框設定轉角的角度
+                border-radius: 10px;
+                background-color: cornsilk;
+                > a{
+                    >img{
+                        // 圖片邊框 線段的粗細樣式(實線)顏色
+                        border: 1.5px solid rgba(255, 255,0255, 0.25);
+                        border-radius:15px ;
+                    }
+                }
+            }
+            >.Nameox{
+                width:  $W1P * 9;
+                //彈性布局 橫向排版
+                display: flex;
+                // 內間距
+                margin:  {
+                    bottom: 15px;
+                };
+                        // 隱藏項目符號
+
+                >h3{
+                    width: $TW + 10;
+                    font-size: $Trem * 1.4;
+                }
+                >li{
+                    width: $NW - 10;
+                    list-style-type: none;
+                }
+    
+            }
+            >.Brief{
+            //    寬度
+            width: $W1P * 8.5;
+            // 文字左右對齊
+            text-align: justify;
+            // 外間距
+            margin: {
+                 bottom: 10px;
+            }
+            
+            
+            }
+            > #PriceBox{
+            
+            //    寬度
+            width: $W1P *9;
+            // 隱藏項目符號
+            list-style-type: none ;
+            // 彈性布局
+            display: flex;
+            padding: {
+                bottom: 10px;
+            }
+            >.OriginaPrice{
+                // 寬度
+                width: $W1P * 4;
+                // 文字尺寸
+                font-size:  $Trem * 0.9;
+                // 內間距
+                padding : {
+                    top:  $Trem *0.3;
+                }
+            }
+            >.BargainPrice{
+                // 寬度
+                // 文字尺寸
+                font-size: $Trem * 1.2;
+            }
+            > Car {
+                // 寬度
+                width: $W1P * 2;
+            }
+            }
+    }
+             > .more{
+              width:  $W1P * 8;
+             //文字對齊 右
+                text-align: right;
+                // 隱藏項目符號
+                @include DNli;
+                // 文字尺寸
+                font-size:  $Trem * 1.2;
+                // 英文轉大寫
+                text-transform: uppercase;
+                // 字距
+                letter-spacing: 2px;
+                
+                // 外間距
+                margin: {
+                    bottom: 15px
+                }
+
+                > a {
+                    // 寬度 高度 px 設定 內間距 padding 上下 左右
+                    padding:  2.5px 10px 0.1px;
+                    // 顯示方式 文字方塊
+                    display: inline-block;
+                    background-color: rgb(73, 199, 105);
+                // 取消連結底線樣式
+                    text-decoration: none;
+                    // 顏色
+                    color: rgb(106, 138, 167);
+                    //圓角矩形
+                    border-radius: 35px; 
+        }
+     
+}
+        
+    }
+    
+   
     
     .Item01{
         // width: $w10 * 10;
