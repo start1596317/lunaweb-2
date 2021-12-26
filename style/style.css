@@ -1173,14 +1173,21 @@ img {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  #Main > #HotStar > .LCommodity {
+  #Main > #HotStar > article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #Main > #HotStar > article > .LCommodity {
     background-color: #edeeb7;
-    width: 25vw;
+    width: 20.75%;
     margin-bottom: 20px;
     -webkit-box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
             box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
   }
-  #Main > #HotStar > .LCommodity > #TitleBox {
+  #Main > #HotStar > article > .LCommodity > #TitleBox {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1190,51 +1197,51 @@ img {
     list-style: none;
     background-color: cornflowerblue;
   }
-  #Main > #HotStar > .LCommodity > #TitleBox > .Title {
+  #Main > #HotStar > article > .LCommodity > #TitleBox > .Title {
     width: 70%;
     font-size: 1.7rem;
   }
-  #Main > #HotStar > .LCommodity > #TitleBox > .Number {
+  #Main > #HotStar > article > .LCommodity > #TitleBox > .Number {
     width: 30%;
     font-size: 1.1rem;
     text-align: right;
     padding-top: 0.6rem;
   }
-  #Main > #HotStar > .LCommodity > #TitleBox > .Text {
+  #Main > #HotStar > article > .LCommodity > #TitleBox > .Text {
     width: 100%;
     text-align: right;
   }
-  #Main > #HotStar > .LCommodity > .Images {
-    width: 280px;
+  #Main > #HotStar > article > .LCommodity > .Images {
+    width: 90%;
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: cornsilk;
   }
-  #Main > #HotStar > .LCommodity > .Images > a > img {
+  #Main > #HotStar > article > .LCommodity > .Images > a > img {
     border: 1.5px solid rgba(255, 255, 255, 0.25);
     border-radius: 15px;
   }
-  #Main > #HotStar > .LCommodity > .Nameox {
+  #Main > #HotStar > article > .LCommodity > .Nameox {
     width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 15px;
   }
-  #Main > #HotStar > .LCommodity > .Nameox > h3 {
+  #Main > #HotStar > article > .LCommodity > .Nameox > h3 {
     width: 80%;
     font-size: 1.4rem;
   }
-  #Main > #HotStar > .LCommodity > .Nameox > li {
+  #Main > #HotStar > article > .LCommodity > .Nameox > li {
     width: 20%;
     list-style-type: none;
   }
-  #Main > #HotStar > .LCommodity > .Brief {
+  #Main > #HotStar > article > .LCommodity > .Brief {
     width: 85%;
     text-align: justify;
     margin-bottom: 10px;
   }
-  #Main > #HotStar > .LCommodity > #PriceBox {
+  #Main > #HotStar > article > .LCommodity > #PriceBox {
     width: 90%;
     list-style-type: none;
     display: -webkit-box;
@@ -1242,15 +1249,15 @@ img {
     display: flex;
     padding-bottom: 10px;
   }
-  #Main > #HotStar > .LCommodity > #PriceBox > .OriginaPrice {
+  #Main > #HotStar > article > .LCommodity > #PriceBox > .OriginaPrice {
     width: 40%;
     font-size: 0.9rem;
     padding-top: 0.3rem;
   }
-  #Main > #HotStar > .LCommodity > #PriceBox > .BargainPrice {
+  #Main > #HotStar > article > .LCommodity > #PriceBox > .BargainPrice {
     font-size: 1.2rem;
   }
-  #Main > #HotStar > .LCommodity > #PriceBox > Car {
+  #Main > #HotStar > article > .LCommodity > #PriceBox > Car {
     width: 20%;
   }
   #Main > #HotStar > .more {
@@ -1284,14 +1291,14 @@ img {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  #Main > #Share > .LCommodity {
+  #Main > #Share > article > .LCommodity {
     background-color: #edeeb7;
-    width: 45vw;
+    width: 49%;
     margin-bottom: 20px;
     -webkit-box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
             box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
   }
-  #Main > #Share > .LCommodity > #TitleBox {
+  #Main > #Share > article > .LCommodity > #TitleBox {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1301,51 +1308,51 @@ img {
     list-style: none;
     background-color: #2c8f23;
   }
-  #Main > #Share > .LCommodity > #TitleBox > .Title {
+  #Main > #Share > article > .LCommodity > #TitleBox > .Title {
     width: 70%;
     font-size: 1.7rem;
   }
-  #Main > #Share > .LCommodity > #TitleBox > .Number {
+  #Main > #Share > article > .LCommodity > #TitleBox > .Number {
     width: 30%;
     font-size: 1.1rem;
     text-align: right;
     padding-top: 0.6rem;
   }
-  #Main > #Share > .LCommodity > #TitleBox > .Text {
+  #Main > #Share > article > .LCommodity > #TitleBox > .Text {
     width: 100%;
     text-align: right;
   }
-  #Main > #Share > .LCommodity > .Images {
-    width: 280px;
+  #Main > #Share > article > .LCommodity > .Images {
+    width: 90%;
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: cornsilk;
   }
-  #Main > #Share > .LCommodity > .Images > a > img {
+  #Main > #Share > article > .LCommodity > .Images > a > img {
     border: 1.5px solid rgba(255, 255, 255, 0.25);
     border-radius: 15px;
   }
-  #Main > #Share > .LCommodity > .Nameox {
+  #Main > #Share > article > .LCommodity > .Nameox {
     width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 15px;
   }
-  #Main > #Share > .LCommodity > .Nameox > h3 {
+  #Main > #Share > article > .LCommodity > .Nameox > h3 {
     width: 80%;
     font-size: 1.4rem;
   }
-  #Main > #Share > .LCommodity > .Nameox > li {
+  #Main > #Share > article > .LCommodity > .Nameox > li {
     width: 20%;
     list-style-type: none;
   }
-  #Main > #Share > .LCommodity > .Brief {
+  #Main > #Share > article > .LCommodity > .Brief {
     width: 85%;
     text-align: justify;
     margin-bottom: 10px;
   }
-  #Main > #Share > .LCommodity > #PriceBox {
+  #Main > #Share > article > .LCommodity > #PriceBox {
     width: 90%;
     list-style-type: none;
     display: -webkit-box;
@@ -1353,15 +1360,15 @@ img {
     display: flex;
     padding-bottom: 10px;
   }
-  #Main > #Share > .LCommodity > #PriceBox > .OriginaPrice {
+  #Main > #Share > article > .LCommodity > #PriceBox > .OriginaPrice {
     width: 40%;
     font-size: 0.9rem;
     padding-top: 0.3rem;
   }
-  #Main > #Share > .LCommodity > #PriceBox > .BargainPrice {
+  #Main > #Share > article > .LCommodity > #PriceBox > .BargainPrice {
     font-size: 1.2rem;
   }
-  #Main > #Share > .LCommodity > #PriceBox > Car {
+  #Main > #Share > article > .LCommodity > #PriceBox > Car {
     width: 20%;
   }
   #Main > #Share > .more {
