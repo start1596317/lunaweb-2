@@ -22,7 +22,7 @@ img {
     width: 100%;
     background-color: #cfee7b;
   }
-  header nav {
+  header #MainNav {
     position: fixed;
     top: 0;
     z-index: 999;
@@ -42,43 +42,104 @@ img {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  header nav #Logo {
+  header #MainNav #Logo {
     width: 85vw;
   }
-  header nav #MenuBoton {
+  header #MainNav #MenuBoton {
     width: 15vw;
   }
-  header nav #icon {
+  header #MainNav #icon {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    width: 90vw;
+    width: 100vw;
   }
-  header nav #icon #Logo {
-    width: 40vw;
+  header #MainNav #icon #Logo {
+    width: 50vw;
     float: left;
     background-color: ivory;
   }
-  header nav .Btnbox {
+  header #MainNav #icon ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 96vw;
+    width: 50vw;
   }
-  header nav #MenuBoton {
-    width: 60px;
+  header #MainNav #icon ul .MenuBoton {
     float: left;
     background-color: #d87732;
-    width: 100vw;
+    width: 10vw;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     background-image: url(../../images/Icon/manuicon.svg);
   }
-  header nav .Clear {
+  header #MainNav .Btnbox {
+    display: none;
+  }
+  header #MainNav .Clear {
     clear: both;
+  }
+  header #MenuNav {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 9999;
+    background-color: aliceblue;
+  }
+  header #MenuNav > #Close {
+    width: 40px;
+    height: 40px;
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: aqua;
+  }
+  header #MenuNav > h1 {
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    line-height: 110px;
+    background-color: brown;
+  }
+  header #MenuNav > ul {
+    width: 90%;
+    position: relative;
+    top: 50%;
+    margin-top: -260px;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-color: burlywood;
+  }
+  header #MenuNav > ul > .Item {
+    width: 30.3333333333%;
+    height: 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  header #MenuNav > ul > .Home {
+    background-color: #c0d4f8;
+  }
+  header #MenuNav > ul > .About {
+    background-color: #c0d4f8;
+  }
+  header #MenuNav > ul > .Price {
+    background-color: #c0d4f8;
+  }
+  header #MenuNav > ul > .Merchandise {
+    background-color: #c0d4f8;
+  }
+  header #MenuNav > ul > .Memo {
+    background-color: #c0d4f8;
   }
 
   footer {
@@ -394,7 +455,7 @@ img {
     width: 100%;
     background-color: #da338f;
   }
-  header nav {
+  header #MainNav {
     /*
     浮動對齊的問題 float
     1.#Logo 與 # icon 物件的父框架 nav，無寬度
@@ -406,35 +467,38 @@ img {
     */
     height: 10vh;
   }
-  header nav #Logo {
+  header #MainNav #Logo {
     width: 85vw;
   }
-  header nav #MenuBoton {
+  header #MainNav #MenuBoton {
     width: 15vw;
   }
-  header nav #Logo {
-    float: left;
-    background-color: #21995d;
-  }
-  header nav #icon {
-    width: 100vw;
+  header #MainNav #icon {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    width: 100vw;
   }
-  header nav #icon h1 {
-    width: 65vw;
+  header #MainNav #icon h1 {
+    float: left;
+    background-color: #21995d;
+    width: 100vw;
   }
-  header nav .Btnbox {
+  header #MainNav #icon > .MenuBoton {
+    width: 60px;
+    float: left;
+    background-color: #d87732;
+    width: 10vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../../images/Icon/manuicon.svg);
+  }
+  header #MainNav .Btnbox {
     background-color: #d6d576;
     display: none;
   }
-  header nav #MenuBoton {
-    float: left;
-  }
-  header nav .Clear {
+  header #MainNav .Clear {
     clear: both;
   }
 
@@ -764,7 +828,7 @@ img {
     width: 100vw;
     background-color: #57174c;
   }
-  header nav {
+  header #MainNav {
     /*
     浮動對齊的問題 float
     1.#Logo 與 # icon 物件的父框架 nav，無寬度
@@ -776,24 +840,24 @@ img {
     */
     height: 10vh;
   }
-  header nav #Logo {
+  header #MainNav #Logo {
     width: 85vw;
   }
-  header nav #MenuBoton {
+  header #MainNav #MenuBoton {
     width: 15vw;
   }
-  header nav #icon #Logo {
+  header #MainNav #icon #Logo {
     float: left;
     background-color: ivory;
   }
-  header nav .Btnbox {
+  header #MainNav .Btnbox {
     background-color: #b6bee6;
     display: none;
   }
-  header nav #MenuBoton {
+  header #MainNav #MenuBoton {
     float: left;
   }
-  header nav .Clear {
+  header #MainNav .Clear {
     clear: both;
   }
 }
@@ -802,14 +866,14 @@ img {
     width: 100vw;
     background-color: #60cab3;
   }
-  header nav {
+  header #MainNav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  header nav #icon {
+  header #MainNav #icon {
     width: 100vw;
     display: block;
     list-style-type: none;
@@ -817,13 +881,13 @@ img {
     display: -ms-flexbox;
     display: flex;
   }
-  header nav #icon > #Logo {
+  header #MainNav #icon > #Logo {
     width: 60vw;
   }
-  header nav .Btnbox {
+  header #MainNav .Btnbox {
     background-color: #deeb29;
   }
-  header nav #MenuBoton {
+  header #MainNav #MenuBoton {
     display: none;
     width: 30;
     display: -webkit-box;
@@ -1146,7 +1210,7 @@ img {
     width: 100vw;
     background-color: #da903b;
   }
-  header nav {
+  header #MainNav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

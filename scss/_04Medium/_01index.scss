@@ -10,7 +10,7 @@ header {
     width: $w10 * 10;
     // height: 150px;
     background-color: rgb(87, 23, 76);
-    nav {
+    #MainNav {
         /*
         浮動對齊的問題 float
         1.#Logo 與 # icon 物件的父框架 nav，無寬度

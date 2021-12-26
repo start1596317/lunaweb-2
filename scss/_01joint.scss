@@ -98,7 +98,7 @@ $Trem: 1rem;
     // 問題:路徑無法直接讀取變數名稱
     // 解答:scss提供的語法，插值寫法(基於javascript的es6 語法)，#{自訂名稱 (只能英文和數字) }
     // ，例如:# {Image},寫在路徑上
-    width: $w10 * 10;
+    width: $w10 * 1;
 
     // 不重複
     background-repeat: no-repeat;
