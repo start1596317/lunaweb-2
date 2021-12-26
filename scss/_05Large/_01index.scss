@@ -5,18 +5,23 @@ header {
     nav {
         display: flex;
         flex-wrap: wrap;
-        .Btnbox {
-            background-color: rgb(222, 235, 41);
-        }
         #icon {
+            width: $w10 * 10 ;
+            >#Logo{
+                width: $w10 * 6 ;
+            }  
             // 開啟隱藏物件
             @include OB;
-            width: $w10 * 7 ;
+            // width: $w10 * 4 ;
             // 隱藏項目符號
             list-style-type: none;
             display: flex;
 
         }
+        .Btnbox {
+            background-color: rgb(222, 235, 41);
+        }
+       
         #MenuBoton {
             @include DN;
             width: 10 * 3;

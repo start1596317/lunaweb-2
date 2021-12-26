@@ -7,7 +7,7 @@
 // 目前使用的單位 (數值) 是 百分比 (%) ; 網頁的固定單位--像素px
 header {
     // 寬度100%
-    width: $w10 * 10;
+    width: $W1P * 10;
     // height: 150px;
     background-color: rgb(218, 51, 143);
     nav {
@@ -33,14 +33,21 @@ header {
             float: left;
             background-color: rgb(33, 153, 93);
         }
+        #icon {
+            width: $w10 * 10 ;
+            h1{
+                width: $w10 * 6.5 ;
+            }
+            //  隱藏
+           
+            display: flex;
+            flex-wrap: wrap;
+        }
         .Btnbox {
             background-color: rgb(214, 213, 118);
             display: none;
         }
-        #icon {
-            //  隱藏
-            display: none;
-        }
+       
         #MenuBoton {
             // 靠左對齊法:靠左對齊 float:left
             float: left;
