@@ -28,14 +28,14 @@ img {
     z-index: 999;
     background-color: aliceblue;
     /*
-    浮動對齊的問題 float
-    1.#Logo 與 # icon 物件的父框架 nav，無寬度
-    2.nav 的父框架 header ，高度消失(展開) 
-    解決方式
-    1.nav 的父框架 header ，給予高度: 或是nav 給予高度
-    2.清除浮動狀態，由 nav 設定
-    3.利用圖片高度撐開父框架的高
-    */
+        浮動對齊的問題 float
+        1.#Logo 與 # icon 物件的父框架 nav，無寬度
+        2.nav 的父框架 header ，高度消失(展開) 
+        解決方式
+        1.nav 的父框架 header ，給予高度: 或是nav 給予高度
+        2.清除浮動狀態，由 nav 設定
+        3.利用圖片高度撐開父框架的高
+        */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -121,7 +121,7 @@ img {
     background-color: burlywood;
   }
   header #MenuNav > ul > .Item {
-    width: 30.3333333333%;
+    width: 30.33333%;
     height: 90px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -141,7 +141,6 @@ img {
   header #MenuNav > ul > .Memo {
     background-color: #c0d4f8;
   }
-
   footer {
     margin-top: 2rem;
   }
@@ -160,7 +159,6 @@ img {
   footer address {
     display: none;
   }
-
   #Main {
     background-color: #f1f5bb;
   }
@@ -450,6 +448,7 @@ img {
     background-image: url(../../images/Banner/blue.png);
   }
 }
+
 @media screen and (min-width: 576px) {
   header {
     width: 100%;
@@ -457,14 +456,14 @@ img {
   }
   header #MainNav {
     /*
-    浮動對齊的問題 float
-    1.#Logo 與 # icon 物件的父框架 nav，無寬度
-    2.nav 的父框架 header ，高度消失(展開) 
-    解決方式
-    1.nav 的父框架 header ，給予高度: 或是nav 給予高度
-    2.清除浮動狀態，由 nav 設定
-    3.利用圖片高度撐開父框架的高
-    */
+        浮動對齊的問題 float
+        1.#Logo 與 # icon 物件的父框架 nav，無寬度
+        2.nav 的父框架 header ，高度消失(展開) 
+        解決方式
+        1.nav 的父框架 header ，給予高度: 或是nav 給予高度
+        2.清除浮動狀態，由 nav 設定
+        3.利用圖片高度撐開父框架的高
+        */
     height: 10vh;
   }
   header #MainNav #Logo {
@@ -501,7 +500,6 @@ img {
   header #MainNav .Clear {
     clear: both;
   }
-
   footer {
     margin-top: 2rem;
   }
@@ -520,7 +518,6 @@ img {
   footer address {
     display: none;
   }
-
   #Main {
     background-color: #f1f5bb;
   }
@@ -823,6 +820,7 @@ img {
     background-image: url(../../images/Banner/blue.png);
   }
 }
+
 @media screen and (min-width: 768px) {
   header {
     width: 100vw;
@@ -830,14 +828,14 @@ img {
   }
   header #MainNav {
     /*
-    浮動對齊的問題 float
-    1.#Logo 與 # icon 物件的父框架 nav，無寬度
-    2.nav 的父框架 header ，高度消失(展開) 
-    解決方式
-    1.nav 的父框架 header ，給予高度: 或是nav 給予高度
-    2.清除浮動狀態，由 nav 設定
-    3.利用圖片高度撐開父框架的高
-    */
+        浮動對齊的問題 float
+        1.#Logo 與 # icon 物件的父框架 nav，無寬度
+        2.nav 的父框架 header ，高度消失(展開) 
+        解決方式
+        1.nav 的父框架 header ，給予高度: 或是nav 給予高度
+        2.清除浮動狀態，由 nav 設定
+        3.利用圖片高度撐開父框架的高
+        */
     height: 10vh;
   }
   header #MainNav #Logo {
@@ -861,6 +859,7 @@ img {
     clear: both;
   }
 }
+
 @media screen and (min-width: 992px) {
   header {
     width: 100vw;
@@ -894,11 +893,9 @@ img {
     display: -ms-flexbox;
     display: flex;
   }
-
   footer address {
     display: none;
   }
-
   #Main {
     background-color: #f1f5bb;
   }
@@ -960,7 +957,7 @@ img {
   }
   #Main > #HotStar > article > .LCommodity {
     background-color: #edeeb7;
-    width: 30.3333333333%;
+    width: 30.33333%;
     margin-bottom: 20px;
     margin-left: 1.5%;
     margin-right: 1.5%;
@@ -1205,6 +1202,7 @@ img {
     background-image: url(../../images/Banner/blue.png);
   }
 }
+
 @media screen and (min-width: 1200px) {
   header {
     width: 100vw;
@@ -1217,11 +1215,9 @@ img {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-
   footer address {
     display: none;
   }
-
   #Main {
     background-color: #f1f5bb;
   }
@@ -1522,4 +1518,5 @@ img {
     background-size: cover;
     background-image: url(../../images/Banner/blue.png);
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
