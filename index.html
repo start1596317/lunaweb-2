@@ -10,6 +10,7 @@
     <!--網頁標籤(唯一標籤)-->
     <title>購物車</title>
     <!--外部連接-->
+    
     <link rel="stylesheet" href="dist/style/style.min.css">
 
 </head>
@@ -20,57 +21,7 @@
     <!-- html4架構 id(唯一)# class(類別)-->
     <!-- 頁首header 內容main 頁尾footer -->
     <!-- div=區塊標籤 -->
-    <header>
-        <nav id="MainNav">
-            <!-- 導覽標籤 nav 項目清單 ul li :商標 標題1(h1) -->
-
-            
-            <div id="icon">
-                <h1 id="Logo">Jamejuice</h1>
-                <ul id="Other">
-                <div class="Menber">會員</div>
-                <div class="Shoppimg">購物車</div>
-                <form class="Serch">搜尋</form>
-                <div class="MenuBoton">
-                </ul>
-                
-                    <!-- 選單 -->
-                    <!-- 設定方式一:直接置入圖片 img ;alt替代文字(圖片連結失效時);title提示文字(對圖片來說不重要) -->
-                    <!-- (不重要圖片，可以不用設定) ;圖片很難設定為 水平置中;解決方式:利用文字取代圖片，設定背景圖片呈現-->
-                    <!-- MenuBtn -->
-                    <!-- <img src="images/manuicon.svg" alt="Jamejuice選單"> -->
-                
-                </div>
-            </div>
-            <ul class="Btnbox">
-                <li>首頁</li>
-                <li>關於我們</li>
-                <li>菜單價目表</li>
-                <li>所有商品</li>
-                <li>相關配件</li>
-                <li>留言板</li>
-            </ul>
-            <!-- icon區塊標籤 div ; icon -->
-           
-            
-            <!-- 清除浮動框架 p (段落)-->
-            <p class="clear"></p>
-        </nav>
-
-        <nav id="MenuNav">
-            <li id="Close">close</li>
-            <h1>商標</h1>
-            <ul>
-                <li class="Item Home">首頁</li>
-                <li class="Item About">關於我們</li>
-                <li class="Item Price">菜單價目表</li>
-                <li class="Item Merchandise">所有商品</li>
-                <li class="Item Memo">留言板</li>
-            </ul>
-            
-        </nav>
-        <!-- 導覽列  ig fb line  購物車小圖  nav -->
-    </header>
+    <header></header>
     <article id="Main">
         <!-- 廣告區塊 div 命名 輪播功能用 javascript 命名建議用 ID 選擇器 ; css3輪播功能 命名 id選擇器 或是類別選擇器(class) -->
         <div id="Banner">
@@ -306,21 +257,22 @@
 
         <!-- 下為大區段 -->
     </article>
-    <footer>
-        <nav class="smaillnav">
+    <footer id="Footer">
+        <nav class="smailnav" id="SmailNav">
             <hr>
-            <ul>
-                <li class="costom">客服專區</li>
+            <ul > 
+            
+                <!-- <li class="costom">客服專區</li>
                 <li class="line">|</li>
-                <li class="business">廠商合作專區</li>
+                <li class="business">廠商合作專區</li> -->
             </ul>
     
         </nav>
         <!-- 擁有者資訊 建議瀏覽器解析度 瀏覽人數(比較少用,資料庫運作)版權聲明 連結:隱私權政策
     網站安全政策 服務條款 商品的次選單 -->
         <!-- 段落標籤 P  行內範圍 span-->
-        <div>Jamejuice版權宣告&COPY;2020- <span id="Year">2021</span> </div>
-        <address>
+        <div>Jamejuice版權宣告&COPY;2020- <span id="Year"></span> </div>
+        <address id="Address">
             <p class="address">彰化市</p>
             <p class="phone">0900-000-000</p>
             <p class="e-mail">123456789@gmail.com</p>
@@ -329,7 +281,11 @@
             <p class="map">^*&^%^%$^%##</p>
         </address>
     </footer>
+    <!-- 外部連結檔案 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="javascript/jquery-3.6.0.js"></script>
   <script src="javascript/main.js?20220109001"></script>
+  <script src="javascript/TestCode.js"></script>
 </body>
 
 
